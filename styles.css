@@ -95,3 +95,42 @@ footer {
   color: #fff;
   padding: 1rem 0;
 }
+/* Game List Page */
+.game-list {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.games {
+  list-style: none;
+  padding: 0;
+}
+
+.games li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.games li:hover {
+  transform: scale(1.03);
+}
+
+.games button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.games button:hover {
+  background: #0288d1;
+}
